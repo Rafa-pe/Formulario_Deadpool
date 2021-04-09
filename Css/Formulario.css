@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #610303;
+    font-family: 'Raleway', sans-serif;
+}
+.login-form {
+    width:  28%;
+    margin: 0  auto;
+    background-size:cover;
+    background-position:center;
+    padding: 20px 20px 60px;
+    }
+    .centrar{
+        border: solid #610303;
+        margin-left: 1cm;
+        margin-right: 0.05cm;
+        border-width: 4px;
+        background  :  url(../../TrabajosH/Imagenes/deadpool-fondo.jpg);
+        width: 95%;
+        height: 95vh;
+        background-size: 100%;
+        background-position: center;
+        text-align:left;
+    }
+
+        label{
+            font-size: 28px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            color: #fefdfd ;
+            
+        }
+
+            input[type="text"],  input[type="password"]{
+            outline: none;
+            font-size:1em;
+            color: #fff;
+            padding: 10px 10px;
+            margin: 0  auto;
+            width:95%;
+            border: none;
+            border-bottom: 2px  solid #610303;
+            background: transparent;
+            }
+
+            input[type ="submit"]{
+            width:100%;
+            outline: none;
+            display: block;
+            margin: 0 auto;
+            margin-top:  45px;
+            padding: 15px  20px;
+            font-size: 20px;
+            font-weight:bold;
+            text-transform:  uppercase;
+            background: #610303;
+            border: none;
+            color: #fff;
+            cursor:pointer;
+            transition: 0.3s all;
+            }
+                input[type ="submit"]:hover{
+                background: #810F0F;
+                transition:0.3s all;
+                }
+
+                select{
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    -ms-appearance: none;
+                    appearance: none;
+                    outline: 0;
+                    box-shadow: none;
+                    border: 0 !important;
+                    background-color: #17202A;
+                    background-image: none;
+                    flex: 1;
+                    padding: 0em .5em;
+                    color: #ffff;
+                    cursor: pointer;
+                    font-size: 1em;
+                    font-family: 'Raleway', sans-serif;
+                }
+                select::-ms-expand{
+                    display: none;
+                }
+                .select{
+                    position: relative;
+                    display: flex;
+                    width: 20em;
+                    height: 3em;
+                    line-height: 3;
+                    background: #17202A;
+                    overflow: hidden;
+                    border-radius: .25em;
+                }
+
+                .select::after{
+                    content: '\25BC';
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 0  1em;
+                    background: #212F3C;
+                    cursor: pointer;
+                    pointer-events: none;
+                    transition: .25s all ease;
+                }
+                .select:hover::after {
+                    color: #610303;
+                 }
